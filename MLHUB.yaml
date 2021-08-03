@@ -1,0 +1,24 @@
+--- # Google Geocode
+meta:
+  name         : google
+  title        : Google Maps
+  keywords     : google map, map, location
+  version      : 0.0.1
+  languages    : py
+  license      : gplv3
+  author       : Graham.Williams@anu.edu.au
+  url          : https://github.com/gjwgit/google
+  private      :
+    Google Maps  : key*
+
+dependencies:
+  files:
+    - README.md
+    - demo.py
+    - geocode.py
+
+commands:
+  demo       : Demonstrate google maps.
+  geocode    : Generate latitude and longitude and other information for supplied address.
+  
+
